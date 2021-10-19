@@ -1,0 +1,5 @@
+print('=====EXERCÍCIO 12=====')
+p = float(input('Valor original: R$'))
+v = p - p * (5/100)
+print('O produto que custava R${:.2f} com 5% de desconto está R${:.2f}'.format(p, v))
+print('Sendo assim uma economia de R${:.2f}'.format(p - v))

@@ -1,0 +1,5 @@
+print('=====EXERCÍCIO 15=====')
+d = int(input('Quantos dias foi ultilizado o carro? '))
+km = int(input('Quantos Km foram rodados com ele? '))
+valor = (d * 60) + (km * 0.15)
+print('O valor total do aluguel ficou R${:.2f}'.format(valor))

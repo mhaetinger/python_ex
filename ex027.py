@@ -1,0 +1,5 @@
+print('=====EXERCÍCIO 27=====')
+name = str(input('Qual é o seu nome completo? ')).strip()
+print('Muito prazer em te conhecer!')
+print('Seu primeiro nome é {}.'.format(name.split()[0]))
+print('Seu último nome é {}.'.format(name.split()[-1]))
